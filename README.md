@@ -6,6 +6,7 @@ A Python project that controls system volume using hand gestures detected by a w
 - Python
 - OpenCV
 - Mediapipe
+- Handtrack
 - PyCAW
 - NumPy
 
@@ -15,4 +16,5 @@ The system tracks your hand using Mediapipe, measures the distance between your 
 ## Run It
 ```bash
 pip install -r requirements.txt
+
 python VolumeHandControl.py
